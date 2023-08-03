@@ -84,8 +84,6 @@ function install_configuration_file {
             else
                 # They agreed... replace configuration
                 cat "$CONF_SOURCE" > "$CONF_TARGET"
-            else
-                abort
             fi
         fi
     else
